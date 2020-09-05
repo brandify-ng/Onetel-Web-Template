@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: OpenReg;
+    src: url(../fonts/open-sans/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: OpenBold;
+    src: url(../fonts/open-sans/OpenSans-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: OpenExtra;
+    src: url(../fonts/open-sans/OpenSans-ExtraBold.ttf) format("truetype");
+}
+.black{
+    background-color: #222;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+}
+header{
+    margin: auto;
+    background-color: #444;
+    width: 900px;
+    height: 70px;
+    border-left: solid 7px hotpink;
+    position: relative;
+    top: 20px;
+    font-family: OpenReg;
+}
+.logotext{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.logotext h1{
+    float: left;
+    color: white;
+    margin-top: -3px;
+}
+.ball{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: hotpink;
+    float: left;
+}
+.menu{
+    float: right;
+}
+ul{
+    margin-right: 20px;
+}
+li{
+    display: inline-block;
+    color: white;
+    transition: color 500ms ease-out;
+    padding: 25px 15px;
+    margin-top: -20px;
+}
+li:first-child{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+li:hover{
+    color: orange;
+}
+.hero{
+    background-image: url(../images/testify_demo_8.jpg);
+    background-size: cover;
+    height: 550px;
+    padding-top: 250px;
+    padding-left: 300px;
+}
+.hero h2{
+    color: #333;
+    font-size: 40px;
+    font-family: OpenExtra;    
+}
+.features{
+    text-align: center;
+    color: white;
+    background-color: #222;
+}
+.feat{
+    display: inline-block;
+    width: 300px;
+    padding: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, .25);
+}
+.responsive{
+    background-color: orangered;
+    position: relative;
+    top: -40px;
+    transition: top 500ms ease-out;
+}
+.responsive:hover{
+    top: -60px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border: solid 2px white;
+    border-radius: 50%;
+    padding-top: 22px;
+    margin: auto;
+}
+.easy{
+    background-color: darkcyan;
+    position: relative;
+    top: -40px;
+    transition: top 500ms ease-out;
+}
+.easy:hover{
+    top: -60px;
+}
+.quick{
+    background-color: orange;
+    position: relative;
+    top: -40px;
+    transition: top 500ms ease-out;
+}
+.quick:hover{
+    top: -60px;
+}
+.text h2{
+    font-family: openBold;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+.text p{
+    font-family: openReg;
+}
+.blackback{
+    background-color: #222;
+    padding: 50px 0px;
+}
+.startup{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    background-color: #333;
+    color: white;
+    padding-top: 100px;
+}
+.start{
+    height: 320px;
+    width: 50%;
+    margin-top: -100px;
+}
+.bg-man{
+    background-image: url(../images/testify_demo_8.jpg);
+    background-size: contain;
+}
+.startupbiz{
+    padding: 30px;
+}
+.startupbiz h2{
+    font-family: openBold;
+    font-size: 30px;
+}
+.startupbiz p{
+    font-family: openReg;
+    font-size: 15px;
+    margin: 10px 0px;
+    color: #666;
+}
+button{
+    font-family: openBold;
+    background-color: transparent;
+    border: solid 2px white;
+    margin: 20px 0px;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
